@@ -1,0 +1,14 @@
+{application, xfp,
+ [
+  {description, "Fast xml parser"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  lager,
+                  erlsom
+                 ]},
+  {mod, { xfp_app, []}},
+  {env, []}
+ ]}.
